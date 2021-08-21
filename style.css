@@ -1,4 +1,5 @@
 
+/* adding hover effect on all button tag */
 .hovereffect:hover{
     background-color: darkturquoise;
     box-shadow: floralwhite;
