@@ -12,14 +12,14 @@ function commonMemoreyPrice(condition){
     }
 }
 
-const memoryIdOf8GB=document.getElementById('8GBmemory-select')
-memoryIdOf8GB.addEventListener('click',function(){
+const memoryIdOf8Gb=document.getElementById('8GBmemory-select')
+memoryIdOf8Gb.addEventListener('click',function(){
     commonMemoreyPrice('8GB memory price')
     calculationOfTotal()
 })
 
-const memoryIdOf16GB=document.getElementById('16GBmemory-select')
-memoryIdOf16GB.addEventListener('click',function(){
+const memoryIdOf16Gb=document.getElementById('16GBmemory-select')
+memoryIdOf16Gb.addEventListener('click',function(){
     commonMemoreyPrice('16GB memory price')
     calculationOfTotal()
  
