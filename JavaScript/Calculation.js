@@ -146,4 +146,6 @@ const promoButton=document.getElementById('promo-code-button').addEventListener(
         const discountValue=parseFloat(promoCodeDiscount.innerText)*0.8;
         promoCodeDiscount.innerText=discountValue;
     }
+    //clear input value
+    promoCodeInput.value='';
 })
